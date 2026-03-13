@@ -32,7 +32,7 @@ public class Monster {
     }
 
     public boolean taskMonster(int difficultGame){
-        System.out.println("⚔️ Реши задачу, чтобы победить монстра! ⚔️");
+        System.out.println(" Реши задачу, чтобы победить монстра! ");
 
         int trueAnswer;
         String taskText;
@@ -72,18 +72,18 @@ public class Monster {
                 break;
         }
 
-        System.out.println("📝 " + taskText);
+        System.out.println("Реши пример:  " + taskText);
         System.out.print("Твой ответ: ");
 
         Scanner sc = new Scanner(System.in);
         int ans = sc.nextInt();
 
         if (trueAnswer == ans) {
-            System.out.println("✅ Верно! Ты победил монстра!");
+            System.out.println("Верно! Ты победил монстра!");
             return true;
         } else {
-            System.out.println("❌ Неверно! Правильный ответ: " + trueAnswer);
-            System.out.println("💀 Ты проиграл эту битву!");
+            System.out.println(" Неверно! Правильный ответ: " + trueAnswer);
+            System.out.println(" Ты проиграл эту битву!");
             return false;
         }
     }

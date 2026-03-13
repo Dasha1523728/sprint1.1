@@ -28,7 +28,6 @@ public class Main {
         int countMonster = sizeBoard * sizeBoard - sizeBoard - 5;
         Random r = new Random();
 
-        // для работы сбольшим количеством монстров воспользуемся массивом
         Monster[] arrMonster = new Monster[countMonster + 1];
         int count = 0;
         Monster test;

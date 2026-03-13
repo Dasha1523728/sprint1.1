@@ -22,7 +22,7 @@ public class BigMonster extends Monster {
 
     @Override
     public boolean taskMonster(int difficultGame) {
-        System.out.println("⚔️ Монстр задаёт тебе сложный пример! ⚔️");
+        System.out.println("Монстр задаёт тебе сложный пример! ");
 
         if (difficultGame == 1) {
             return taskMonster();
@@ -61,18 +61,18 @@ public class BigMonster extends Monster {
                     break;
             }
 
-            System.out.println("📝 Реши пример: " + taskText);
+            System.out.println(" Реши пример: " + taskText);
             System.out.print("Твой ответ: ");
 
             Scanner sc = new Scanner(System.in);
             int ans = sc.nextInt();
 
             if (trueAnswer == ans) {
-                System.out.println("✅ Верно! Ты победил монстра!");
+                System.out.println("Верно! Ты победил монстра!");
                 return true;
             } else {
-                System.out.println("❌ Неверно! Правильный ответ: " + trueAnswer);
-                System.out.println("💀 Монстр атакует...");
+                System.out.println(" Неверно! Правильный ответ: " + trueAnswer);
+                System.out.println("Монстр атакует...");
                 return false;
             }
         }
