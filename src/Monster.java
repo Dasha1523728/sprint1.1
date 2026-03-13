@@ -68,7 +68,7 @@ public class Monster {
                 int i = r.nextInt(50) + 10;
                 int j = r.nextInt(50) + 10;
                 trueAnswer = Math.max(i, j);
-                taskText = "Какое число больше: " + i + " или " + j + "? (введи большее)";
+                taskText = "Какое число больше:" + i + " или " + j + "? (введи большее)";
                 break;
         }
 

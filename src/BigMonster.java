@@ -72,7 +72,7 @@ public class BigMonster extends Monster {
                 return true;
             } else {
                 System.out.println(" Неверно! Правильный ответ: " + trueAnswer);
-                System.out.println("Монстр атакует...");
+                System.out.println("Монстр атакует... ");
                 return false;
             }
         }
